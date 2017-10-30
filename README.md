@@ -1,7 +1,13 @@
-### This is a fork from https://github.com/mxstbr/react-boilerplate. 
+## This application is built by me by following and coding along with Hendrik Swanepoel the author of the pluralsight course "Building Scalable React Apps"
 
-It's only purpose is to make it easier for people to follow along with my "Scaling React Apps" course on pluralsight.com: https://app.pluralsight.com/library/courses/react-boilerplate-building-scalable-apps. 
+### I fully understood the following key concepts from this course:
+  + Building Scalable React Apps
+  + Working with React boilderplate
+  + Utilizing Redux Saga
+  + Working with CSS modules
+  + Working with ImmutableJS and Reselect
+  
+### How to run the app:
 
-By working from this fork, you are guaranteed that you will get exactly the same versions that I used when I built the course. I also made 1 tiny change in the boilerplate to make the course easier to follow along. This is mentioned in the course, but it is important enough to mention here too. 
-
-This is not my boilerplate! **It's just a fork with a few tweaks for the course.**
+  + Download the repository to your local machine.
+  + Run "npm install && npm start" from where the package.json file is located.(make sure babel-cli is install in your pc globally)
