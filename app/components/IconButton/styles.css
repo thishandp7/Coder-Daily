@@ -1,0 +1,13 @@
+.iconButton {
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  color: #FFF;
+}
+
+.icon:hover {
+  color: #E5E5E5;
+}

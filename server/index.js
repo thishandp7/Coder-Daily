@@ -34,7 +34,6 @@ app.listen(port, (err) => {
       if (innerErr) {
         return logger.error(innerErr);
       }
-
       logger.appStarted(port, url);
     });
   } else {
