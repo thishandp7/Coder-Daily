@@ -6,8 +6,9 @@ import { requestTopicsSuccess, requestTopicsFailure } from './actions';
 import { push } from 'react-router-redux';
 import selectNavigationContainer from './selectors';
 // Individual exports for testing
+console.info('URL: ', process.env.REACT_APP_API_URL);
 export function fetchTopicsFromServer() {
-  return fetch('http://localhost:3000/api/topics')
+  return fetch(`${process.env.REACT_APP_API_URL}/api/topics`)
           .then(responce => responce.json());
 }
 

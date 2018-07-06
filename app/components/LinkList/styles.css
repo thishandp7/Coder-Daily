@@ -1,5 +1,5 @@
 .button {
-  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+  box-shadow: rgba(0, 0, 0, 0.156863) 1px 3px 10px, rgba(0, 0, 0, 0.227451) 1px 3px 10px;
   border-radius: 50%;
   display: inline-block;
   position: fixed;

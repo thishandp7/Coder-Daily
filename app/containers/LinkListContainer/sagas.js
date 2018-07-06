@@ -5,9 +5,9 @@ import { requestLinkSuccess, requestLinkFailure } from './actions';
 import { REQUEST_LINK, START_ADD } from './constants';
 import { push } from 'react-router-redux';
 // Individual exports for testing
-
+console.info('URL: ', process.env.REACT_APP_API_URL);
 function fetchLinkFromServer(topicName) {
-  return fetch(`http://localhost:3000/api/topics/${topicName}/links`)
+  return fetch(`${process.env.REACT_APP_API_URL}/api/topics/${topicName}/links`)
         .then(responce => responce.json());
 }
 
